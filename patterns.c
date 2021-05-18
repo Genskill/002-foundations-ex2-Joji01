@@ -3,10 +3,9 @@
 
 int main()
 {
- int p=get_int("Type of pattern(1 or 2)");
+ int p=get_int("Enter type of pattern (1 or 2) ");
  int r=get_int("Number of rows");
  int i,j;
- printf("\n");
  if (p==1)
  {
    for(i=r;i>0;i--)
